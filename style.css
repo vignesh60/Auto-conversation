@@ -1,0 +1,84 @@
+body {
+    font-family: 'Algerian';
+    background-color: #1d1c1c;
+    padding: 10px;
+}
+
+.comic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    box-shadow: inset 3px 3px 16px ;
+    border: 10px solid white;
+    background: rgb(224, 244, 246);
+    border-radius: 10px;
+}
+h2{
+    border: 5px solid rgb(237, 132, 192);
+    width: 94%;
+    text-align: center;
+    margin-top: -0px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 7px;
+    background: rgba(254, 5, 109, 0.598);
+}
+.newcontainer{
+    display: flex;
+    padding: 10px;
+    background: white;
+    box-shadow: 4px 4px 40px -1px;
+    border-radius: 20px;
+    height: 90%;
+}
+.character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: inset 3px 3px 16px ;
+    height: 60vh;
+}
+#img1{
+    height: 39vh;
+}
+.character img {
+    height: 30vh;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: -7px;
+}
+
+.dialogue {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 150%;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+@media only screen and (max-width:750px){
+    .newcontainer{
+        width: 80%;
+        height: 90%;
+    }
+}
